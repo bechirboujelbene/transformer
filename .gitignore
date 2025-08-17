@@ -1,0 +1,42 @@
+# Byte-sized repo hygiene
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs and local config
+.venv/
+.env
+.envrc
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large/optional artefacts (keep repo lightweight)
+models/
+datasets/
+outputs/
+checkpoints/
+wandb/
+
+# Common development files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE specific
+*.sublime-*
+.vscode/settings.json
+.vscode/launch.json
