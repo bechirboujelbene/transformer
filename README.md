@@ -85,4 +85,3 @@ To keep the repository small and fast to clone, large or optional artefacts are 
 
 Unit tests depend on small tensor fixtures — these are kept so that `pytest` runs out-of-the-box. If you add large models or datasets, please store them outside the repo or use releases/LFS.
 
-If you see `util/submit.py`, it's a legacy helper from an academic workflow; you can safely remove it for a portfolio setup.
